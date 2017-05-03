@@ -1,0 +1,991 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BaldaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Dictionary">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Length" Type="bigint" />
+        </EntityType>
+        <EntityType Name="Dictionary10">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Dictionary11">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="11" />
+        </EntityType>
+        <EntityType Name="Dictionary12">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="12" />
+        </EntityType>
+        <EntityType Name="Dictionary13">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="13" />
+        </EntityType>
+        <EntityType Name="Dictionary14">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="14" />
+        </EntityType>
+        <EntityType Name="Dictionary15">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="Dictionary16">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="16" />
+        </EntityType>
+        <EntityType Name="Dictionary17">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="17" />
+        </EntityType>
+        <EntityType Name="Dictionary18">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="18" />
+        </EntityType>
+        <EntityType Name="Dictionary19">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="19" />
+        </EntityType>
+        <EntityType Name="Dictionary20">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="Dictionary21">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="21" />
+        </EntityType>
+        <EntityType Name="Dictionary22">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="22" />
+        </EntityType>
+        <EntityType Name="Dictionary23">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="23" />
+        </EntityType>
+        <EntityType Name="Dictionary24">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="24" />
+        </EntityType>
+        <EntityType Name="Dictionary25">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="25" />
+        </EntityType>
+        <EntityType Name="Dictionary26">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="26" />
+        </EntityType>
+        <EntityType Name="Dictionary27">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="27" />
+        </EntityType>
+        <EntityType Name="Dictionary28">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="28" />
+        </EntityType>
+        <EntityType Name="Dictionary29">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="29" />
+        </EntityType>
+        <EntityType Name="Dictionary3">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="4" />
+        </EntityType>
+        <EntityType Name="Dictionary30">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="Dictionary31">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="31" />
+        </EntityType>
+        <EntityType Name="Dictionary32">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="32" />
+        </EntityType>
+        <EntityType Name="Dictionary4">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="Dictionary5">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="Dictionary6">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="6" />
+        </EntityType>
+        <EntityType Name="Dictionary7">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="7" />
+        </EntityType>
+        <EntityType Name="Dictionary8">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="8" />
+        </EntityType>
+        <EntityType Name="Dictionary9">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Word" Type="nvarchar" MaxLength="9" />
+        </EntityType>
+        <EntityType Name="Game">
+          <Key>
+            <PropertyRef Name="IdGame" />
+          </Key>
+          <Property Name="IdGame" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdFirstPlayer" Type="bigint" />
+          <Property Name="IdSecondPlayer" Type="bigint" />
+          <Property Name="NumberOfStep" Type="int" />
+          <Property Name="NumbersOutStepsOfFirst" Type="int" />
+          <Property Name="NumbersOutStepsOfSecond" Type="int" />
+          <Property Name="NumbersOfFirst" Type="int" />
+          <Property Name="NumbersOfSecond" Type="int" />
+          <Property Name="Time" Type="time" Precision="7" />
+          <Property Name="WhoseStep" Type="nchar" MaxLength="2" />
+          <Property Name="IdWord" Type="bigint" />
+        </EntityType>
+        <EntityType Name="Gamer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="text" />
+          <Property Name="UnicId" Type="text" Nullable="false" />
+          <Property Name="IdGames" Type="int" />
+        </EntityType>
+        <EntityType Name="GamesSomeGamer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdPlayer" Type="bigint" Nullable="false" />
+          <Property Name="Time" Type="time" Precision="7" />
+          <Property Name="Numbers" Type="bigint" />
+          <Property Name="Win" Type="nchar" MaxLength="2" />
+        </EntityType>
+        <EntityType Name="ListOfGamers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdGamer" Type="bigint" Nullable="false" />
+          <Property Name="IdState" Type="bigint" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="Words">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdWord" Type="bigint" Nullable="false" />
+          <Property Name="IdPlayer" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="BaldaModelStoreContainer">
+          <EntitySet Name="Dictionary" EntityType="Self.Dictionary" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary10" EntityType="Self.Dictionary10" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary11" EntityType="Self.Dictionary11" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary12" EntityType="Self.Dictionary12" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary13" EntityType="Self.Dictionary13" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary14" EntityType="Self.Dictionary14" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary15" EntityType="Self.Dictionary15" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary16" EntityType="Self.Dictionary16" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary17" EntityType="Self.Dictionary17" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary18" EntityType="Self.Dictionary18" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary19" EntityType="Self.Dictionary19" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary20" EntityType="Self.Dictionary20" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary21" EntityType="Self.Dictionary21" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary22" EntityType="Self.Dictionary22" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary23" EntityType="Self.Dictionary23" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary24" EntityType="Self.Dictionary24" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary25" EntityType="Self.Dictionary25" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary26" EntityType="Self.Dictionary26" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary27" EntityType="Self.Dictionary27" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary28" EntityType="Self.Dictionary28" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary29" EntityType="Self.Dictionary29" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary3" EntityType="Self.Dictionary3" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary30" EntityType="Self.Dictionary30" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary31" EntityType="Self.Dictionary31" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary32" EntityType="Self.Dictionary32" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary4" EntityType="Self.Dictionary4" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary5" EntityType="Self.Dictionary5" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary6" EntityType="Self.Dictionary6" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary7" EntityType="Self.Dictionary7" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary8" EntityType="Self.Dictionary8" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dictionary9" EntityType="Self.Dictionary9" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Game" EntityType="Self.Game" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Gamer" EntityType="Self.Gamer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GamesSomeGamer" EntityType="Self.GamesSomeGamer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ListOfGamers" EntityType="Self.ListOfGamers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Words" EntityType="Self.Words" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BaldaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Dictionary">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Length" Type="Int64" />
+        </EntityType>
+        <EntityType Name="Dictionary10">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary11">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary12">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary13">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="13" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary14">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="14" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary15">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary16">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary17">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="17" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary18">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="18" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary19">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="19" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary20">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary21">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="21" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary22">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="22" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary23">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="23" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary24">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary25">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary26">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="26" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary27">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="27" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary28">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="28" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary29">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="29" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary3">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary30">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary31">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="31" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary32">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="32" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary4">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary5">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary6">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary7">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="7" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary8">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dictionary9">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Word" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Game">
+          <Key>
+            <PropertyRef Name="IdGame" />
+          </Key>
+          <Property Name="IdGame" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdFirstPlayer" Type="Int64" />
+          <Property Name="IdSecondPlayer" Type="Int64" />
+          <Property Name="NumberOfStep" Type="Int32" />
+          <Property Name="NumbersOutStepsOfFirst" Type="Int32" />
+          <Property Name="NumbersOutStepsOfSecond" Type="Int32" />
+          <Property Name="NumbersOfFirst" Type="Int32" />
+          <Property Name="NumbersOfSecond" Type="Int32" />
+          <Property Name="Time" Type="Time" Precision="7" />
+          <Property Name="WhoseStep" Type="String" MaxLength="2" FixedLength="true" Unicode="true" />
+          <Property Name="IdWord" Type="Int64" />
+        </EntityType>
+        <EntityType Name="Gamer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="UnicId" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IdGames" Type="Int32" />
+        </EntityType>
+        <EntityType Name="GamesSomeGamer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdPlayer" Type="Int64" Nullable="false" />
+          <Property Name="Time" Type="Time" Precision="7" />
+          <Property Name="Numbers" Type="Int64" />
+          <Property Name="Win" Type="String" MaxLength="2" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ListOfGamer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdGamer" Type="Int64" Nullable="false" />
+          <Property Name="IdState" Type="Int64" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Word">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdWord" Type="Int64" Nullable="false" />
+          <Property Name="IdPlayer" Type="Int64" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="BaldaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Dictionaries" EntityType="Self.Dictionary" />
+          <EntitySet Name="Dictionary10" EntityType="Self.Dictionary10" />
+          <EntitySet Name="Dictionary11" EntityType="Self.Dictionary11" />
+          <EntitySet Name="Dictionary12" EntityType="Self.Dictionary12" />
+          <EntitySet Name="Dictionary13" EntityType="Self.Dictionary13" />
+          <EntitySet Name="Dictionary14" EntityType="Self.Dictionary14" />
+          <EntitySet Name="Dictionary15" EntityType="Self.Dictionary15" />
+          <EntitySet Name="Dictionary16" EntityType="Self.Dictionary16" />
+          <EntitySet Name="Dictionary17" EntityType="Self.Dictionary17" />
+          <EntitySet Name="Dictionary18" EntityType="Self.Dictionary18" />
+          <EntitySet Name="Dictionary19" EntityType="Self.Dictionary19" />
+          <EntitySet Name="Dictionary20" EntityType="Self.Dictionary20" />
+          <EntitySet Name="Dictionary21" EntityType="Self.Dictionary21" />
+          <EntitySet Name="Dictionary22" EntityType="Self.Dictionary22" />
+          <EntitySet Name="Dictionary23" EntityType="Self.Dictionary23" />
+          <EntitySet Name="Dictionary24" EntityType="Self.Dictionary24" />
+          <EntitySet Name="Dictionary25" EntityType="Self.Dictionary25" />
+          <EntitySet Name="Dictionary26" EntityType="Self.Dictionary26" />
+          <EntitySet Name="Dictionary27" EntityType="Self.Dictionary27" />
+          <EntitySet Name="Dictionary28" EntityType="Self.Dictionary28" />
+          <EntitySet Name="Dictionary29" EntityType="Self.Dictionary29" />
+          <EntitySet Name="Dictionary3" EntityType="Self.Dictionary3" />
+          <EntitySet Name="Dictionary30" EntityType="Self.Dictionary30" />
+          <EntitySet Name="Dictionary31" EntityType="Self.Dictionary31" />
+          <EntitySet Name="Dictionary32" EntityType="Self.Dictionary32" />
+          <EntitySet Name="Dictionary4" EntityType="Self.Dictionary4" />
+          <EntitySet Name="Dictionary5" EntityType="Self.Dictionary5" />
+          <EntitySet Name="Dictionary6" EntityType="Self.Dictionary6" />
+          <EntitySet Name="Dictionary7" EntityType="Self.Dictionary7" />
+          <EntitySet Name="Dictionary8" EntityType="Self.Dictionary8" />
+          <EntitySet Name="Dictionary9" EntityType="Self.Dictionary9" />
+          <EntitySet Name="Games" EntityType="Self.Game" />
+          <EntitySet Name="Gamers" EntityType="Self.Gamer" />
+          <EntitySet Name="GamesSomeGamers" EntityType="Self.GamesSomeGamer" />
+          <EntitySet Name="ListOfGamers" EntityType="Self.ListOfGamer" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="Words" EntityType="Self.Word" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BaldaModelStoreContainer" CdmEntityContainer="BaldaEntities">
+          <EntitySetMapping Name="Dictionaries">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary">
+              <MappingFragment StoreEntitySet="Dictionary">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Length" ColumnName="Length" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary10">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary10">
+              <MappingFragment StoreEntitySet="Dictionary10">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary11">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary11">
+              <MappingFragment StoreEntitySet="Dictionary11">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary12">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary12">
+              <MappingFragment StoreEntitySet="Dictionary12">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary13">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary13">
+              <MappingFragment StoreEntitySet="Dictionary13">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary14">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary14">
+              <MappingFragment StoreEntitySet="Dictionary14">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary15">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary15">
+              <MappingFragment StoreEntitySet="Dictionary15">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary16">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary16">
+              <MappingFragment StoreEntitySet="Dictionary16">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary17">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary17">
+              <MappingFragment StoreEntitySet="Dictionary17">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary18">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary18">
+              <MappingFragment StoreEntitySet="Dictionary18">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary19">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary19">
+              <MappingFragment StoreEntitySet="Dictionary19">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary20">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary20">
+              <MappingFragment StoreEntitySet="Dictionary20">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary21">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary21">
+              <MappingFragment StoreEntitySet="Dictionary21">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary22">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary22">
+              <MappingFragment StoreEntitySet="Dictionary22">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary23">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary23">
+              <MappingFragment StoreEntitySet="Dictionary23">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary24">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary24">
+              <MappingFragment StoreEntitySet="Dictionary24">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary25">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary25">
+              <MappingFragment StoreEntitySet="Dictionary25">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary26">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary26">
+              <MappingFragment StoreEntitySet="Dictionary26">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary27">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary27">
+              <MappingFragment StoreEntitySet="Dictionary27">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary28">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary28">
+              <MappingFragment StoreEntitySet="Dictionary28">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary29">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary29">
+              <MappingFragment StoreEntitySet="Dictionary29">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary3">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary3">
+              <MappingFragment StoreEntitySet="Dictionary3">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary30">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary30">
+              <MappingFragment StoreEntitySet="Dictionary30">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary31">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary31">
+              <MappingFragment StoreEntitySet="Dictionary31">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary32">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary32">
+              <MappingFragment StoreEntitySet="Dictionary32">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary4">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary4">
+              <MappingFragment StoreEntitySet="Dictionary4">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary5">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary5">
+              <MappingFragment StoreEntitySet="Dictionary5">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary6">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary6">
+              <MappingFragment StoreEntitySet="Dictionary6">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary7">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary7">
+              <MappingFragment StoreEntitySet="Dictionary7">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary8">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary8">
+              <MappingFragment StoreEntitySet="Dictionary8">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dictionary9">
+            <EntityTypeMapping TypeName="BaldaModel.Dictionary9">
+              <MappingFragment StoreEntitySet="Dictionary9">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Word" ColumnName="Word" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Games">
+            <EntityTypeMapping TypeName="BaldaModel.Game">
+              <MappingFragment StoreEntitySet="Game">
+                <ScalarProperty Name="IdGame" ColumnName="IdGame" />
+                <ScalarProperty Name="IdFirstPlayer" ColumnName="IdFirstPlayer" />
+                <ScalarProperty Name="IdSecondPlayer" ColumnName="IdSecondPlayer" />
+                <ScalarProperty Name="NumberOfStep" ColumnName="NumberOfStep" />
+                <ScalarProperty Name="NumbersOutStepsOfFirst" ColumnName="NumbersOutStepsOfFirst" />
+                <ScalarProperty Name="NumbersOutStepsOfSecond" ColumnName="NumbersOutStepsOfSecond" />
+                <ScalarProperty Name="NumbersOfFirst" ColumnName="NumbersOfFirst" />
+                <ScalarProperty Name="NumbersOfSecond" ColumnName="NumbersOfSecond" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="WhoseStep" ColumnName="WhoseStep" />
+                <ScalarProperty Name="IdWord" ColumnName="IdWord" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Gamers">
+            <EntityTypeMapping TypeName="BaldaModel.Gamer">
+              <MappingFragment StoreEntitySet="Gamer">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="UnicId" ColumnName="UnicId" />
+                <ScalarProperty Name="IdGames" ColumnName="IdGames" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GamesSomeGamers">
+            <EntityTypeMapping TypeName="BaldaModel.GamesSomeGamer">
+              <MappingFragment StoreEntitySet="GamesSomeGamer">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdPlayer" ColumnName="IdPlayer" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="Numbers" ColumnName="Numbers" />
+                <ScalarProperty Name="Win" ColumnName="Win" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ListOfGamers">
+            <EntityTypeMapping TypeName="BaldaModel.ListOfGamer">
+              <MappingFragment StoreEntitySet="ListOfGamers">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdGamer" ColumnName="IdGamer" />
+                <ScalarProperty Name="IdState" ColumnName="IdState" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="BaldaModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Words">
+            <EntityTypeMapping TypeName="BaldaModel.Word">
+              <MappingFragment StoreEntitySet="Words">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdWord" ColumnName="IdWord" />
+                <ScalarProperty Name="IdPlayer" ColumnName="IdPlayer" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IServiceBalda" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://169.254.162.113/WcfService/ServiceBalda.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IServiceBalda"
+                contract="ServiceReferenceBalda.IServiceBalda" name="BasicHttpBinding_IServiceBalda" />
+        </client>
+    </system.serviceModel>
+</configuration>
